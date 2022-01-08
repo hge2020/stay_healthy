@@ -13,8 +13,8 @@
 
         function change(){
             var gett = document.getElementById("value").value;
-            var location = gett;
-            location.href='location';
+            var location = 'https://hge2020.github.io/stay_healthy/' + gett;
+            location.href=location;
         }
         // function change() {
         //     var gett = document.getElementById("value").value;
@@ -32,7 +32,7 @@
             <form action="8-2.php">
                 <div class="c-formContainer">
                     <input id="value" class="c-form__input" type = "text" placeholder="Enter Your Code" name="password">
-                    <button class="c-form__button" type="button" onclick="change"></button>
+                    <button class="c-form__button" type="button" onclick="change()"></button>
                 </div>
             </form>
         </div>
