@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>건강해!!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script type="text/javascript">
+
+        function change(){
+            var gett = document.getElementById("value").value;
+            var location = gett;
+            location.href='location';
+        }
+        // function change() {
+        //     var gett = document.getElementById("value").value;
+        //     console.log('가져온 텍스트:', gett);
+        // }
+
+
+    </script>
+    <div>
+        <div class = "content">
+            <div class = "title">
+                <h1><span style="color: #006c03;">Stay&nbsp;</span>Healthy ☺</h1>
+            </div>
+            <h2>good health&nbsp;&nbsp;&nbsp;&nbsp;good study</h2>
+            <form action="8-2.php">
+                <div class="c-formContainer">
+                    <input id="value" class="c-form__input" type = "text" placeholder="Enter Your Code" name="password">
+                    <button class="c-form__button" type="button" onclick="change"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
