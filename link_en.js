@@ -20,6 +20,7 @@ function change(){
     }
     else if (gett == "9QD864"){
         location.href='https://hge2020.github.io/stay_healthy/valid_7.html'; //비공개셀카
+    }
     else {
         location.href='https://hge2020.github.io/stay_healthy/invalid.html';
     }
