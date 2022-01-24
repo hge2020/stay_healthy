@@ -12,10 +12,10 @@ function change(){
     else if (gett == "ALP9AF"){
         location.href='https://hge2020.github.io/stay_healthy/valid_4.html'; //원하는대로 데이트
     }
-    else if (get == "CVR852"){
+    else if (gett == "CVR852"){
         location.href='https://hge2020.github.io/stay_healthy/valid_5.html'; // 5만원 상당의 선물
     }
-    else if (get == "44ASQM"){
+    else if (gett == "44ASQM"){
         location.href='https://hge2020.github.io/stay_healthy/valid_6.html'; // 하루 데이트비용 쏘기
     }
     else if (gett == "9QD864"){
